@@ -1,59 +1,60 @@
-    *{
-      /* add border inside the box */
-      box-sizing: border-box;
-      /* space outside of border */
-      margin: 0;
-      /* space between border and content */
-      padding: 0;
-    }
-    div.container{
-      border: 5px solid #851255;
-      /* leave white space on left and right of the page */
-      width: 90%;
-      /* top right bottom left */
-      margin: 0 auto;
-    }
-    header{
-      background-color: lightgreen;
-    }
-    .hero img{
-      width: 100%;
-    }
-    div.left, div.middle, div.right{
-      border: 3px dotted green;
-      /* leave some white space between images */
-      width: 30%;
-    }
-    aside img{
-      width: 100%;
-      }
-    aside{
-      /* expand items to fill free space or shrink to prevent overflow */
-      display: flex;
-      /* put space between images, but not on left and right margin */
-      justify-content: space-between;
-    }
-    nav{
-      background-color: darkolivegreen;
-    }
-    ul{
-      text-align: center;
-    }
-    li{
-      /* change to inline, but mentain block properties */
-      display: inline-block;
-      /* Box width */
-      width: 150px;
-      border: 2px solid white;
-      /* Put 1 line space on top and bottom of text */
-      line-height: 3em;
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-variant: small-caps;
-    }
-    a{
-      color:lightgoldenrodyellow;
-      /* Remove underline */
-      text-decoration: none;
-      /* Take whole space of li, so the whole botton is clickale */
-      display: block
-    }
+*{
+  /* add border inside the box */
+  box-sizing: border-box;
+  /* space outside of border */
+  margin: 0;
+  /* space between border and content */
+  padding: 0;
+}
+div.container{
+  border: 5px solid #851255;
+  /* leave 10% white space on left and right of the page */
+  width: 90%;
+  /* top right bottom left */
+  margin: 0 auto;
+}
+header{
+  background-color: lightgreen;
+}
+.hero img{
+  width: 100%;
+}
+div.left, div.middle, div.right{
+  border: 3px dotted green;
+  /* leave some white space between images */
+  width: 30%;
+}
+aside img{
+  width: 100%;
+  }
+aside{
+  /* expand items to fill free space or shrink to prevent overflow */
+  display: flex;
+  /* put space between images, but not on left and right margin */
+  justify-content:space-between;
+}
+nav{
+  background-color: darkolivegreen;
+}
+ul{
+  text-align: center;
+}
+li{
+  /* change to inline, but maintain block properties */
+  display: inline-block;
+  /* Box width */
+  width: 150px;
+  border: 2px solid yellow;
+  /* Put 1 line space on top and bottom of text */
+  line-height: 3em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  margin: 3px;
+}
+a{
+  color:lightgoldenrodyellow;
+  /* Remove underline */
+  text-decoration: none;
+  /* Take whole space of li, so the whole botton is clickale */
+  display: block;
+}
