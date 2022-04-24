@@ -3,7 +3,7 @@
   box-sizing: border-box;
   /* space outside of border */
   margin: 0;
-  /* space between border and content */
+  /* space between border and contain */
   padding: 0;
 }
 div.container{
